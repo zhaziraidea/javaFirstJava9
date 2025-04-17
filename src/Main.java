@@ -2,13 +2,25 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Dog dog = new Dog("Bob", 2, "buldog");
+        Programmer pr = new Programmer("Zhaz", "AAA", "Peaksoft");
+        System.out.println(pr);
+        pr.coding();
+        pr.walk();
+        pr.eat();
+        pr.learn();
 
-//        System.out.println("name " + dog.getName());
-//        System.out.println("weight " + dog.getWeight());
-//        System.out.println("paroda " + dog.getParoda());
-//        dog.makeSound();
+        Dancer dancer = new Dancer("Zhazi", "BBB", "Biykech");
+        System.out.println(dancer);
+        dancer.eat();
+        dancer.walk();
+        dancer.dancing();
+        dancer.learn();
 
-        System.out.println(dog);
+        Singer singer = new Singer("Zhazira", "ddd", "Abs");
+        System.out.println(singer);
+        singer.eat();
+        singer.walk();
+        singer.singing();
+        singer.learn();
     }
 }
